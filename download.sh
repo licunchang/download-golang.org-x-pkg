@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGES=("arch" "benchmark" "blog" "build" "crypto" "debug" "exp" "image" "lint" "mobile" "net" "oauth2" "perf" "playground" "review" "sync" "sys" "talks" "text" "time" "tools" "tour" "vgo" "website" "xerrors")
+PACKAGES=("arch" "benchmarks" "blog" "build" "crypto" "debug" "exp" "image" "lint" "mobile" "net" "oauth2" "perf" "playground" "review" "sync" "sys" "talks" "text" "time" "tools" "tour" "vgo" "website" "xerrors")
 readonly PACKAGES
 
 for package in ${PACKAGES[@]}; do
